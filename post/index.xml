@@ -5,12 +5,141 @@
     <link>https://ironika221.github.io/pokita/post/</link>
       <atom:link href="https://ironika221.github.io/pokita/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 20:49:27 +0900</lastBuildDate>
     <image>
       <url>https://ironika221.github.io/pokita/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://ironika221.github.io/pokita/post/</link>
     </image>
+    
+    <item>
+      <title>研究分野の紹介</title>
+      <link>https://ironika221.github.io/pokita/post/hello/</link>
+      <pubDate>Sat, 20 Jun 2020 20:49:27 +0900</pubDate>
+      <guid>https://ironika221.github.io/pokita/post/hello/</guid>
+      <description>&lt;!-- BNの分野 --&gt;
+&lt;!-- 構造学習と確率推論 --&gt;
+&lt;!-- 構造学習は大量のデータをもとに物事の結びつき(確率分布において従属か独立か)を判定する --&gt;
+&lt;!-- ↑インターネットから適当に画像引っ張ってくる --&gt;
+&lt;!-- 病気の判定に使われたりしている --&gt;
+&lt;!-- 自分のやっているのは確率推論であることを暴露する --&gt;
+&lt;!-- そこからは普段のポスターとかパワポとかのとおりに近似解やら厳密解の話をする --&gt;
+&lt;h1 id=&#34;bnとは&#34;&gt;BNとは&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://ironika221.github.io/pokita/pokita/img/bn.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;https://ironika221.github.io/pokita/pokita/img/bn.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+一言でいうと確率変数間の依存関係を矢印と確率分布で表現した確率モデルです&lt;/p&gt;
+&lt;p&gt;上の画像ではインフルエンザに関するBNを表しています&lt;/p&gt;
+&lt;p&gt;BNは大量のデータをもとに構造学習を行ったうえで矢印の有無や向きが決まり,
+結びつきの強さを確率分布で表しています(結びつきがあれば確率分布において従属関係ができ，なければ独立の関係となる)&lt;/p&gt;
+&lt;p&gt;上の画像について確率推論を実際に行うと以下のようになります&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://ironika221.github.io/pokita/pokita/img/bn2.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;https://ironika221.github.io/pokita/pokita/img/bn2.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;推論の結果インフルエンザである確率は約90%であることがわかりました！&lt;/p&gt;
+&lt;h3 id=&#34;自分の研究内容&#34;&gt;自分の研究内容&lt;/h3&gt;
+&lt;p&gt;BNの分野に関する研究は主に上の説明にあったように「構造学習」と「確率推論」の２つです．&lt;/p&gt;
+&lt;p&gt;自分は後者の確率推論を研究しています&lt;/p&gt;
+&lt;p&gt;先ほどは単に「確率推論を行うと」というように書きましたが，確率推論には「近似解」を求めるものと「厳密解」を求めるものがあります&lt;/p&gt;
+&lt;p&gt;「近似解」は推論は速いけど誤差を含む&lt;/p&gt;
+&lt;p&gt;「厳密解」は推論は遅いけど値は正確&lt;/p&gt;
+&lt;p&gt;自分はこの内「近似解」について研究をしています&lt;/p&gt;
+&lt;p&gt;BN独特の手法から，よく他の研究でも目にするサンプリング手法までさまざまあります．
+細かい話は数式がとても面倒な上，他分野の人が一瞬で理解するのは難しいと思われるので割愛します&lt;/p&gt;
+&lt;h3 id=&#34;余談&#34;&gt;余談&lt;/h3&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://ironika221.github.io/pokita/pokita/img/kd.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;https://ironika221.github.io/pokita/pokita/img/kd.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;BNの分野では確率推論において厳密解を求める必要があるのか？という議論があります&lt;/p&gt;
+&lt;p&gt;そもそも構造学習を行うこと自体が誤差を生んでいるからです&lt;/p&gt;
+&lt;p&gt;構造学習では関係性の薄そうなものたちには矢印が付かず，依存関係は無いとされてしまいますが，実際にはあるのです
+それを「無い」としているので誤差が発生しているといえます．また，BNを作るにあたって信用できないデータが少量でも含まれていれば，
+完成したBNに誤差があるといえます．さらにいえば，あくまで確率なんだから厳密に計算しても仕方ないともいえます&lt;/p&gt;
+&lt;p&gt;よって「近似解」の研究だけでいいんじゃないかとも考えられます&lt;/p&gt;
+&lt;p&gt;あなたはどう思いますか？&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
